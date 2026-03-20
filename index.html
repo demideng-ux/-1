@@ -448,11 +448,14 @@
     font-family: -apple-system, sans-serif;
     box-shadow: 0 8px 24px rgba(0,0,0,0.12);
     border: 1px solid rgba(0,0,0,0.1);
+<div id="author-tag" onclick="this.style.display='none'" style="
+    display:block;  <!-- 这里改一下 -->
+    ...
 ">
     🚀 祝老板早日爆单，财源滚滚！
 </div>
 
-<div onclick="document.getElementById('author-tag').
+<div onclick="document.getElementById('author-tag').style.display='block'" 
      style="width:120px; height:30px; margin:-40px auto 0; cursor:pointer; background:transparent; z-index:9998;">
 </div>
 </body>
